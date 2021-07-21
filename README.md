@@ -1,2 +1,17 @@
-# Instagram-Bot
-This Instagram Bot will authenticate and login into your Instagram account. By providing a number of hashtags it creates engagement by liking posts and following users. It uses PouchDB as a local database to keep track of the users you are following and can unfollow users after a specific amount of days. A simple Node.js Instagram Bot using Puppeteer.js 
+# Huffman Coding Algorithm
+A C++ compression and decompression program based on Huffman Coding.
+
+Introduction
+This project is to design compression and decompression programs based on Huffman Coding. The idea of Huffman Coding is to minimize the weighted expected length of the code by means of assigning shorter codes to frequently-used characters and longer codes to seldom-used code.
+
+Implementation Details
+The programs can compress and decompress text file consisting of 128 ASCII characters.
+
+Compression
+Open input file, count and store the frequencies of different characters;
+Construct Priority Queue and then Huffman Tree;
+Calculate Huffman Encode Table;
+Encode the file, store Huffman Encode Table and encoded to the desired file.
+Decompression
+Open file, recreate Huffman Tree based on Huffman Encode Table;
+Decode the file based on the tree and store it to the desired file.
