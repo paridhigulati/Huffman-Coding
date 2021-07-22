@@ -1,3 +1,4 @@
+//huffman lossless compression algorithm
 #include <iostream>
 #include <cmath>
 using namespace std;
